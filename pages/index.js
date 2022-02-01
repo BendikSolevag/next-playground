@@ -15,7 +15,7 @@ export default function Home() {
         <section className="z-10 relative pt-[30vh] max-w-wrapper mx-auto px-4 flex justify-between">
           <h1 className="text-white w-[40%]">Doktor Eriksen, MD.</h1>
           <figure className='-mt-8'>
-            <Image src="/portrett.jpg" width={350} height={450}  />
+            <Image src="/portrett.jpg" width={350} height={450} alt="Portrett av Erik Hystad" />
           </figure>
         </section>
       </header>
@@ -28,21 +28,21 @@ export default function Home() {
             <li className='relative'>
               <Hexagon />
               <figure className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
-                <Image src="/python.png" width={200} height={200} className='p-8' />
+                <Image src="/python.png" width={200} height={200} className='p-8' alt="Logoen til Python" />
               </figure>
             </li>
 
             <li className='relative'>
               <Hexagon />
               <figure className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
-                <Image src="/julia.png" width={200} height={130} className='p-8' />
+                <Image src="/julia.png" width={200} height={130} className='p-8' alt="Logoen til Julia"/>
               </figure>
             </li>
 
             <li className='relative'>
               <Hexagon />
               <figure className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
-                <Image src="/haskell.png" width={150} height={150} className='p-8' />
+                <Image src="/haskell.png" width={150} height={150} className='p-8' alt="Logoen til Haskell"/>
               </figure>
             </li>
 

@@ -30,6 +30,9 @@ module.exports = {
     extend: {
       maxWidth: {
         wrapper: '1100px'
+      },
+      fontFamily: {
+        'roboto-mono': ['"Roboto Mono", monospace']
       }
     },
   },

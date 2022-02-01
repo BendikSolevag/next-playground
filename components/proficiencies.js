@@ -3,9 +3,10 @@ import Octagon from './icons/octagon'
 
 const Proficiencies = () => {
     return (
-        <section className='max-w-wrapper mx-auto px-4 py-16'>
-          <h2 className='text-blue-dark'>Proficiencies</h2>
-          
+        <section className='max-w-wrapper mx-auto px-4 py-16 text-blue-dark'>
+          <h2 className=''>Proficiencies</h2>
+          <p className="mt-4">Jeg har en tanke om at det bør komme en kort tekst under undertittelene nedover siden. Denne mikroteksten skal være et par setningler lang, og forklare hva som er interessant med dette segmentet av internettstedet.</p>
+
           <ul className='grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8'>
             <li className='relative'>
               <Octagon />

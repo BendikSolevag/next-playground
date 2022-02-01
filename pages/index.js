@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/header'
 import Proficiencies from '../components/proficiencies'
+import Repositories from '../components/repositories'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Header />
       <main className='bg-white font-roboto-mono'>
         <Proficiencies />
+        <Repositories />
       </main>
 
     </>

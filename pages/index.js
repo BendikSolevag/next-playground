@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <header className='bg-white overflow-x-hiddden'>
         <canvas className="absolute origin-bottom-left -rotate-12 w-[9999px] overflow-hidden h-[80vh] -mt-4 bg-blue-dark"></canvas>
-        <section class="z-10 relative pt-[30vh] max-w-wrapper mx-auto px-4 flex justify-between">
+        <section className="z-10 relative pt-[30vh] max-w-wrapper mx-auto px-4 flex justify-between">
           <h1 className="text-white w-[40%]">Doktor Eriksen, MD.</h1>
           <figure className='-mt-8'>
             <Image src="/portrett.jpg" width={350} height={450}  />

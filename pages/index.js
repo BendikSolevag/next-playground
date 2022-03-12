@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '../components/header'
 import Proficiencies from '../components/proficiencies'
 import Repositories from '../components/repositories'
+import GalleryComponent from "../components/gallery.component";
 
 export default function Home({repos, preview}) {
   console.log(repos)
@@ -19,6 +20,7 @@ export default function Home({repos, preview}) {
       <main className='bg-white font-roboto-mono'>
         <Proficiencies />
         <Repositories repos={repos} />
+        <GalleryComponent />
       </main>
 
     </>
